@@ -1,4 +1,5 @@
 import React from "react";
+import "./footer.css";
 
 const Footer = () => {
   return (
@@ -21,10 +22,11 @@ const Footer = () => {
         <div className="right-col">
           <div className="contact">
             <p>Call for Enquiries!</p>
+            <p className="phone-number">+234 (816) 916 5001</p>
           </div>
-          <p className="phone-number">+234 (816) 916 5001</p>
-          <p className="mailto:kadunafashionshow@gmail.com">
-            <a href="email"></a>kadunafashionshow@gmail.com
+          <p className="email">
+            <a href="mailto:kadunafashionshow@gmail.com">kadunafashionshow@gmail.com</a>
+            
           </p>
           <div className="address">
             <p>16E CB Finance House,</p>
@@ -32,7 +34,7 @@ const Footer = () => {
             <p>Kaduna,</p>
           </div>
           <div className="map">
-            <a href="#">see Office location on map</a>
+          <i class="ri-map-pin-line"></i> <a href="#">see Office location on map</a>
           </div>
         </div>
       </div>
@@ -40,7 +42,7 @@ const Footer = () => {
         <div className="big-vector-graphics">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="1232"
+            width="95%"
             height="332"
             viewBox="0 0 1232 332"
             fill="none"
@@ -70,6 +72,12 @@ const Footer = () => {
               fill="#F2A20E"
             />
           </svg>
+          <div className="owner-ship-text">
+            <div className="text">
+              &copy; 2023 Kaduna Fashio and Art Exhibition. All Rights Reserved
+            </div>
+            <div className="designer">By Starok Studio</div>
+          </div>
         </div>
       </div>
     </div>

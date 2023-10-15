@@ -1,0 +1,89 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    /* position: sticky; */
+    /* bottom: 0; */
+    height: 631px;
+    padding: 44px 79px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1440px;
+    background: #441B04;
+    color: #FFFBEB;
+}
+
+.footer .first-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.left-col .summary {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.left-col .social-btns {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.social-btns button {
+    width: 150px;
+    height: 60px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #FFFBEB;
+    border-radius: 92px;
+    border: 2px solid #FFFBEB;
+    cursor: pointer;
+}
+
+.kafart-art {
+    position: relative;
+    top: -20px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    /* width: 200px; */
+    text-align: left;
+    /* border: 1px solid white; */
+}
+
+.kafart-art .owner-ship-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.right-col {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.designer {
+    text-decoration: underline;
+}
+
+.phone-number {
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.email a,
+.map a {
+    color: #FFFBEB;
+}
+
+.map a {
+    text-decoration: underline;
+}
