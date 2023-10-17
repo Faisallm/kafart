@@ -1,8 +1,11 @@
 import React from 'react'
+import EPCHero from '../../Components/EPCHero/EPCHero'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className='home'>
+      <EPCHero/>
+    </div>
   )
 }
 
