@@ -1,0 +1,56 @@
+.twoImage {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    padding: 30px;
+    text-align: left;
+}
+
+.twoImage .two-left-col {
+    flex-basis: 47%;
+    align-self: flex-start;
+    /* border: 2px solid red; */
+}
+
+.twoImage .two-right-col {
+    flex-basis: 47%;
+    /* border: 2px solid red; */
+}
+
+.twoImage .two-left-col img {
+    width: 110%;
+    max-width: 650px;
+    object-fit: cover;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.twoImage .two-right-col img {
+    width: 97%;
+    object-fit: cover;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.twoImage .two-right-col img:hover {
+    transform: scale(1.111);
+}
+
+.twoImage .two-left-col img:hover {
+    transform: scale(1.111);
+}
+
+.twoImage .person-details p {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.twoImage .circle {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background: #773710;
+    border-radius: 50%;
+}

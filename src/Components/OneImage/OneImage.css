@@ -1,0 +1,37 @@
+.OneImage {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 2px solid black; */
+    padding: 30px;
+    text-align: left;
+}
+
+.OneImage img {
+    width: 100%;
+    max-width: 800px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.OneImage img:hover {
+    transform: scale(1.111);
+}
+
+.OneImage .person-details {
+    align-self: flex-start;
+}
+
+.OneImage .person-details p {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.OneImage .circle {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background: #773710;
+    border-radius: 50%;
+}
