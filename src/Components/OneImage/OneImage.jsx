@@ -7,7 +7,7 @@ const OneImage = ({ fashion1, name1, name2 }) => {
   return (
     <div className="OneImage">
       <div>
-        <Link to="/artist-detail" state={{ image: fashion1, name: name1 }}>
+        <Link to="/artist-detail" state={{ image: fashion1, firstName: name1, secondName: name2 }}>
           <img src={fashion1} alt="Fashion Image" />
         </Link>
         <div className="person-details">

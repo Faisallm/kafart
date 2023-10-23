@@ -8,6 +8,7 @@
     align-items: flex-start;
     justify-content: space-between;
     padding: 60px 40px 60px 25px;
+    text-align: left;
 }
 
 .artist-detail-col-left {
@@ -19,10 +20,21 @@
 
 .artist-detail-col-right {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 70px;
 }
 
 .artist-detail-col-right .artist-image img {
     width: 100%;
+    cursor: pointer;
+    transition: transform 0.5s;
+    /* margin-bottom: 70px; */
+}
+
+.artist-detail-col-right .artist-image img:hover {
+    transform: scale(1.11);
 }
 
 .artist-name {
@@ -46,4 +58,73 @@
     position: absolute;
     top: 40px;
     z-index: 10;
+}
+
+.artist-background p:first-child {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40.8px;
+    margin-bottom: 30px;
+}
+
+.artist-background p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.artist-works p:first-child {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40.8px;
+    margin-bottom: 30px;
+}
+
+.artist-works p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.card {
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    background: #FFFBEB;
+    padding: 91px 55px;
+    gap: 30px;
+    border: 2px solid black;
+}
+
+.card-image img {
+    width: 144px;
+}
+
+.card .person-details {
+    flex: 1;
+}
+
+.card .person-details p {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.card .circle {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background: #773710;
+    border-radius: 50%;
+}
+
+.card-button {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 120%;
+    border: 2px solid black;
+    padding: 10px 40px;
+    border-radius: 54px;
+    margin-right: 40px;
+    cursor: pointer;
 }

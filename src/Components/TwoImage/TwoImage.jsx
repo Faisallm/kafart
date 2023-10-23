@@ -6,7 +6,8 @@ const TwoImage = ({ fashion1, fashion2, name1, name2, name3, name4 }) => {
   return (
     <div className="twoImage">
       <div className="two-left-col">
-        <Link to='/artist-detail' state={{ image: fashion1, name: name2 }} >
+        <Link to='/artist-detail' state={{ image: fashion1, firstName: name1,
+        secondName: name2 }} >
           <img src={fashion1} alt="Fashion Image" />
         </Link>
         <div className="person-details">
@@ -15,7 +16,8 @@ const TwoImage = ({ fashion1, fashion2, name1, name2, name3, name4 }) => {
         </div>
       </div>
       <div className="two-right-col">
-        <Link to='/artist-detail' state={{ image: fashion2, name: name4 }}>
+        <Link to='/artist-detail' state={{ image: fashion2, firstName: name3,
+        secondName: name4 }}>
           <img src={fashion2} alt="Fashion Image" />
         </Link>
         <div className="person-details">

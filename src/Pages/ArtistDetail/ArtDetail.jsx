@@ -1,21 +1,24 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 import "./ArtDetail.css";
+import cardSmall from '../../Components/FashionPageAssets/fashion-small.png';
 
 const ArtDetail = () => {
   const location = useLocation();
-  const { image, name } = location.state;
+  const { image, firstName, secondName } = location.state;
   return (
-    <div className="artist-detail">
-      <div className="artist-detail-col-left">
-        <div className="artist-name">
-          <div className="div">FASHION DESIGNER</div>
-          <div className="name">{name}</div>
+    <div>
+      <div className="artist-detail">
+        <div className="artist-detail-col-left">
+          <div className="artist-name">
+            <div>FASHION DESIGNER</div>
+            <div className="name">{secondName}</div>
+          </div>
         </div>
-      </div>
-      <div className="artist-detail-col-right">
-        <div className="artist-image">
-          <img src={image} alt="Artist Image" />
+        <div className="artist-detail-col-right">
+          <div className="artist-image">
+            <img src={image} alt="Artist Image" />
+          </div>
           <div className="artist-background">
             <p>Background</p>
             <p>
@@ -25,7 +28,7 @@ const ArtDetail = () => {
               and trendy while keeping quality materials and manufacturing in
               high quality, plus using sustainable and environmentally friendly
               approaches. with belief in the bright future for sustainable
-              fashion in the Sudanese fashion industry. <br /> Nucy has
+              fashion in the Sudanese fashion industry. <br /> <br /> Nucy has
               established a platform called “Sudan fashion future" as part of
               the social responsibility of the brand, to support the Sudanese
               fashion designers open for discussions on their needs, challenges
@@ -41,6 +44,18 @@ const ArtDetail = () => {
               self-expression.{" "}
             </p>
           </div>
+        </div>
+      </div>
+      <div className="card">
+        <div className="card-image">
+          <img src={cardSmall} alt="Card Image" />
+        </div>
+        <div className="person-details">
+          <p>{secondName}</p>
+          <span className="circle"> </span> BY {firstName}
+        </div>
+        <div className="card-button">
+          View
         </div>
       </div>
     </div>
