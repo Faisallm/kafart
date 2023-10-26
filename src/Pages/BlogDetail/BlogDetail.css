@@ -1,10 +1,26 @@
-blog-detail {
+.blog-detail {
     padding: 60px 60px;
     width: 100%;
     margin: 0 auto;
     max-width: 1440px;
     background: #FFFBEB;
     text-align: left;
+}
+
+.blog-detail .detail-title {
+    text-align: center;
+}
+
+.blog-detail .detail-title div {
+    font-size: 64px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.blog-detail .detail-title {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 40px;
 }
 
 .blogs-body {
@@ -42,4 +58,8 @@ blog-detail {
 
 .blogs-body .image2 {
     width: 100%;
+}
+
+.image2 {
+    margin-bottom: 60px;
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 import "./BlogDetail.css";
+import cardSmall from '../../Components/FashionPageAssets/fashion-small.png';
 
 const BlogDetail = () => {
   const location = useLocation();
@@ -71,6 +72,16 @@ const BlogDetail = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="card">
+        <div className="card-imager">
+          <img style={{ width: "144px" }} src={cardSmall} alt="Card Image" />
+        </div>
+        <div className="person-details">
+          <p>{name}</p>
+          <span className="circle"> </span> BY {name}
+        </div>
+        <div className="card-button">View</div>
       </div>
     </div>
   );

@@ -47,8 +47,8 @@ const ArtDetail = () => {
         </div>
       </div>
       <div className="card">
-        <div className="card-image">
-          <img src={cardSmall} alt="Card Image" />
+        <div className="card-imager">
+          <img style={{ width: '144px' }} src={cardSmall} alt="Card Image" />
         </div>
         <div className="person-details">
           <p>{secondName}</p>
