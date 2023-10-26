@@ -1,0 +1,46 @@
+.blog {
+    padding: 60px 60px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1440px;
+    background: #FFFBEB;
+    text-align: left;
+}
+
+.blog-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.blog-title .left-title {
+    font-size: 64px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: normal;
+    flex: 1;
+    letter-spacing: -0.2rem;
+}
+
+.blog-title .left-title span {
+    font-size: 20px;
+    position: relative;
+    top: -30px;
+}
+
+.blog-title .right-title {
+    flex-basis: 35%;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* 2 cards per row */
+    gap: 20px;
+    grid-gap: 0px;
+    /* Adjust the gap between cards as needed */
+}
