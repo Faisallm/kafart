@@ -14,7 +14,7 @@ const BlogDetail = () => {
         AUG 31, 2023
       </div>
       <div className="blog-body">
-        <img src={image} alt="Main Image" />
+        <img className="blog-image" src={image} alt="Main Image" />
         <div className="blogs-body">
           <div className="content">
             <div className="content-title">

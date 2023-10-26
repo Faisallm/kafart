@@ -37,6 +37,10 @@
     text-align: left;
 }
 
+.blog-image {
+    width: 100%;
+}
+
 .content {
     width: 60%;
     text-align: left;
