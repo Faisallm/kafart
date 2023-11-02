@@ -1,0 +1,81 @@
+.home {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1440px;
+    background: #FFFBEB;
+}
+
+.driver {
+    padding: 60px 60px;
+    border-bottom: 2px solid grey;
+}
+
+.home-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.home-title p {
+    font-size: 52px;
+    font-weight: 400;
+}
+
+.home-title p span {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.home-title button {
+    font-size: 24px;
+    background: transparent;
+    padding: 9px 50px;
+    text-transform: uppercase;
+    border-radius: 90px;
+}
+
+.driver-content {
+    width: 50%;
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.bottom-home-page {
+    display: flex;
+    align-self: flex-start;
+    justify-content: space-between;
+    padding: 60px 60px;
+    text-align: left;
+}
+
+.bottom-left-column p:first-child {
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.bottom-left-column p:nth-child(2) {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.bottom-left-column button {
+    background: transparent;
+    padding: 9px 50px;
+    border-radius: 90px;
+    cursor: pointer;
+    border: 2px solid black;
+    outline: none;
+    transition: transform 0.5s;
+}
+
+.bottom-left-column button:hover {
+    transform: translateY(-10px) scale(1.000111);
+}
+
+.bottom-right-column {
+    font-size: 18px;
+}

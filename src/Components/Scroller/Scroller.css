@@ -3,7 +3,13 @@
     white-space: nowrap;
     width: 100%;
     z-index: 100000;
+    background: #FFFBEB;
     /* Adjust the width as needed */
+    overflow-y: none;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1440px;
+    background: #FFFBEB;
 }
 
 .scroll-container {

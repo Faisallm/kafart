@@ -2,6 +2,10 @@ import React from "react";
 import { useLocation } from "react-router-dom";
 import "./ArtDetail.css";
 import cardSmall from '../../Components/FashionPageAssets/fashion-small.png';
+import Scroller from "../../Components/Scroller/Scroller";
+import scroller1 from '../../Components/ArtistAssets/artist6.png';
+import scroller2 from '../../Components/ArtistAssets/artist7.png';
+import scroller3 from '../../Components/ArtistAssets/artist8.png';
 
 const ArtDetail = () => {
   const location = useLocation();
@@ -46,7 +50,15 @@ const ArtDetail = () => {
           </div>
         </div>
       </div>
-      <div className="card">
+      <Scroller
+          image1={scroller1}
+          name1="oladimeji odonsi"
+          image2={scroller2}
+          name2="oladimeji odonsi"
+          image3={scroller3}
+          name3="oladimeji odonsi"
+        />
+      <div className="cardd">
         <div className="card-imager">
           <img style={{ width: '144px' }} src={cardSmall} alt="Card Image" />
         </div>

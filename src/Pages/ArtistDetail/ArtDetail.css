@@ -86,7 +86,7 @@
     line-height: 27px;
 }
 
-.card {
+.cardd {
     text-align: left;
     display: flex;
     align-items: flex-start;
@@ -95,22 +95,25 @@
     padding: 91px 55px;
     gap: 30px;
     border: 2px solid black;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1440px;
 }
 
 .card-imager img {
     width: 144px;
 }
 
-.card .person-details {
+.cardd .person-details {
     flex: 1;
 }
 
-.card .person-details p {
+.cardd .person-details p {
     font-size: 28px;
     font-weight: 400;
 }
 
-.card .circle {
+.cardd .circle {
     display: inline-block;
     height: 15px;
     width: 15px;
