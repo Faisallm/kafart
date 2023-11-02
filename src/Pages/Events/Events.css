@@ -1,0 +1,53 @@
+.events {
+    /* padding: 60px 60px; */
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1440px;
+    background: #FFFBEB;
+    text-align: left;
+    padding: 60px 60px;
+}
+
+.events-cards {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 15px;
+}
+
+.event-title {
+    font-size: 64px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.event-card {
+    border: 2px solid grey;
+    width: 400px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 250px;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.event-card:hover {
+    transform: scale(1.11);
+}
+
+.event-card .card-title {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.event-card .card-ticket {
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
