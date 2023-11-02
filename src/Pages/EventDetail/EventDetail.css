@@ -49,38 +49,17 @@
     margin-bottom: 45px;
 }
 
-.scroller {
-    overflow: hidden;
-    /* Hide horizontal scrollbar */
-    white-space: nowrap;
-    width: 100vw;
-    /* Adjust the width as needed */
+.base-image {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 18px;
 }
 
-.scroll-container {
-    display: flex;
-    gap: 20px;
-    animation: scroll 30s linear infinite;
-    /* Adjust duration (10s) as needed */
+.base-image {
+    margin-top: 70px;
 }
 
-@keyframes scroll {
-    0% {
-        transform: translateX(0%);
-        /* Start scrolling from right to left */
-    }
-    100% {
-        transform: translateX(-100%);
-        /* Scroll to the end (left) */
-    }
-}
-
-.scroll-image {
-    width: 45vw;
-    height: 500px;
-}
-
-.scroll-image img {
-    max-width: 100%;
-    height: auto;
+.base-image img {
+    width: 100%;
 }

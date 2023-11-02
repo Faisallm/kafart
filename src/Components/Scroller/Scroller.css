@@ -1,0 +1,36 @@
+.scroller {
+    overflow-x: scroll;
+    white-space: nowrap;
+    width: 100%;
+    z-index: 100000;
+    /* Adjust the width as needed */
+}
+
+.scroll-container {
+    display: flex;
+    gap: 20px;
+    animation: scroll 20s linear 1s infinite;
+    /* Adjust duration (10s) as needed */
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0%);
+        /* Start scrolling from right to left */
+    }
+    100% {
+        transform: translateX(-100%);
+        /* Scroll to the end (left) */
+    }
+}
+
+.scroll-image {
+    width: 70vw;
+    height: 500px;
+    text-transform: uppercase;
+}
+
+.scroll-image img {
+    max-width: 100%;
+    height: auto;
+}

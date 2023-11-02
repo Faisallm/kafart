@@ -5,6 +5,7 @@ import Event1 from "../../Components/EventAssets/event1.png";
 import Event2 from "../../Components/EventAssets/event2.png";
 import Event3 from "../../Components/EventAssets/event3.png";
 import Event0 from "../../Components/EventAssets/event0.png";
+import Scroller from "../../Components/Scroller/Scroller";
 
 const EventDetail = () => {
   const location = useLocation();
@@ -33,22 +34,26 @@ const EventDetail = () => {
       </div>
       <div className="gallery">
         <div className="gallery-title">galleria</div>
-        <div class="scroller">
-          <div class="scroll-container">
-            <div class="scroll-image">
-              <img src={Event1} alt="scroll-image" />
-              <p>oladimeji odonsi</p>
-            </div>
-            <div class="scroll-image">
-              <img src={Event2} alt="scroll-image" />
-              <p>oladimeji odonsi</p>
-            </div>
-            <div class="scroll-image">
-              <img src={Event2} alt="scroll-image" />
-              <p>oladimeji odonsi</p>
-            </div>
-          </div>
-        </div>
+        <Scroller
+          image1={Event1}
+          name1="oladimeji odonsi"
+          image2={Event2}
+          name2="oladimeji odonsi"
+          image3={Event2}
+          name3="oladimeji odonsi"
+        />
+      </div>
+      <div className="intro-text">
+        The performing arts took center stage at KAFART 2021, where dance,
+        music, theater, and live performances captured hearts and minds. The
+        stage came alive with the energy and passion of African performers,
+        weaving stories and emotions that resonated deeply with our audiences.
+        It was a year of rhythmic beats, graceful movements, and the powerful
+        voice of African talent.
+      </div>
+      <div className="base-image">
+        <img src={Event0} />
+        Recap Video for kafart 2021
       </div>
     </div>
   );
