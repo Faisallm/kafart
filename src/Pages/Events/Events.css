@@ -51,3 +51,15 @@
     font-weight: 400;
     text-transform: uppercase;
 }
+
+Link {
+    color: black;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
