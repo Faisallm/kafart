@@ -74,7 +74,7 @@ const Footer = () => {
           </svg>
           <div className="owner-ship-text">
             <div className="text">
-              &copy; 2023 Kaduna Fashio and Art Exhibition. All Rights Reserved
+              &copy; 2023 Kaduna Fashion and Art Exhibition. All Rights Reserved
             </div>
             <div className="designer">By Starok Studio</div>
           </div>

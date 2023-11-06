@@ -33,3 +33,56 @@
     border-radius: 92.341px;
     border: 2px solid #000;
 }
+
+@media only screen and (max-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        /* Stack elements on top of each other on mobile */
+        align-items: center;
+        /* Center-align content on mobile */
+        width: 100%;
+        height: auto;
+        /* Remove fixed height for better mobile responsiveness */
+        border-bottom: 2px solid var(--black-900, #3D3D3D);
+        background: #FFFBEB;
+        margin: 0;
+        max-width: 100%;
+        /* Remove max-width for better mobile responsiveness */
+        position: static;
+        /* Remove sticky positioning for mobile */
+        z-index: 0;
+        /* Remove z-index for mobile */
+    }
+    .logo img {
+        width: 150px;
+        /* Adjust logo width for mobile */
+        height: auto;
+        /* Maintain aspect ratio */
+        margin: 20px 0;
+        /* Adjust margin for mobile */
+    }
+    .navigation-links {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        /* Stack navigation links on top of each other on mobile */
+        align-items: center;
+        /* Center-align navigation links on mobile */
+        gap: 20px;
+        /* Adjust gap between navigation links for mobile */
+    }
+    .get-ticket {
+        width: 100%;
+        /* Full width on mobile */
+        max-width: 300px;
+        /* Limit maximum width for larger screens */
+        height: 60px;
+        padding: 9px 20px;
+        /* Adjust padding for mobile */
+        border-radius: 92.341px;
+        border: 2px solid #000;
+        margin: 20px 0;
+        /* Adjust margin for mobile */
+    }
+}

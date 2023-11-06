@@ -35,3 +35,35 @@
     background: #773710;
     border-radius: 50%;
 }
+
+
+/* Mobile-responsive CSS */
+
+@media only screen and (max-width: 768px) {
+    .OneImage {
+        align-items: center;
+        /* Center-align content on mobile */
+        text-align: center;
+        /* Center-align text on mobile */
+    }
+    .OneImage img {
+        width: 100%;
+        /* Full width for mobile */
+        max-width: none;
+        /* Reset max-width for mobile */
+    }
+    .OneImage .person-details {
+        align-self: center;
+        /* Center-align person-details on mobile */
+    }
+    .OneImage .person-details p {
+        font-size: 24px;
+        /* Adjust font size for mobile */
+    }
+    .OneImage .circle {
+        height: 10px;
+        /* Adjust circle size for mobile */
+        width: 10px;
+        /* Adjust circle size for mobile */
+    }
+}

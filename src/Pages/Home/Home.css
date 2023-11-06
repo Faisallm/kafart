@@ -79,3 +79,95 @@
 .bottom-right-column {
     font-size: 18px;
 }
+
+@media only screen and (max-width: 768px) {
+    /* CSS rules for screens with a width of 768 pixels or less (commonly used for tablets and mobile devices) */
+    /* Place your responsive styles here */
+    .home {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1440px;
+        background: #FFFBEB;
+    }
+    .driver {
+        padding: 20px 20px;
+        /* Adjust padding for mobile */
+        border-bottom: 2px solid grey;
+    }
+    .home-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        /* Adjust margin for mobile */
+    }
+    .home-title p {
+        font-size: 28px;
+        /* Adjust font size for mobile */
+        font-weight: 400;
+    }
+    .home-title p span {
+        font-size: 12px;
+        /* Adjust font size for mobile */
+        margin-top: 10px;
+    }
+    .home-title button {
+        font-size: 18px;
+        /* Adjust font size for mobile */
+        background: transparent;
+        padding: 9px 20px;
+        /* Adjust padding for mobile */
+        text-transform: uppercase;
+        border-radius: 90px;
+    }
+    .driver-content {
+        width: 100%;
+        /* Take up full width on mobile */
+        font-size: 16px;
+        /* Adjust font size for mobile */
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+    .bottom-home-page {
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        /* Stack columns on top of each other on mobile */
+        align-items: center;
+        /* Center-align content on mobile */
+        padding: 20px;
+        /* Adjust padding for mobile */
+        text-align: center;
+        /* Center-align text on mobile */
+    }
+    .bottom-left-column p:first-child {
+        font-size: 32px;
+        /* Adjust font size for mobile */
+        font-weight: 500;
+        margin-bottom: 15px;
+        text-align: left;
+    }
+    .bottom-left-column p:nth-child(2) {
+        font-size: 18px;
+        /* Adjust font size for mobile */
+        font-weight: 400;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    .bottom-left-column button {
+        display: none;
+        font-size: 16px;
+        /* Adjust font size for mobile */
+        padding: 9px 20px;
+        /* Adjust padding for mobile */
+        border-radius: 90px;
+        cursor: pointer;
+        border: 2px solid black;
+        outline: none;
+        transition: transform 0.5s;
+    }
+    .bottom-right-column {
+        font-size: 14px;
+        /* Adjust font size for mobile */
+    }
+}

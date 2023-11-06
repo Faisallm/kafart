@@ -67,3 +67,62 @@
 .image2 {
     margin-bottom: 60px;
 }
+
+
+/* Your existing CSS for larger screens here */
+
+@media only screen and (max-width: 768px) {
+    .blog-detail {
+        padding: 20px;
+        /* Adjust padding for mobile */
+    }
+    .blog-detail .detail-title div {
+        font-size: 40px;
+        /* Adjust font size for mobile */
+        margin-bottom: 10px;
+        /* Adjust margin for mobile */
+    }
+    .blog-detail .detail-title {
+        font-size: 20px;
+        /* Adjust font size for mobile */
+        margin-bottom: 20px;
+        /* Adjust margin for mobile */
+    }
+    .blogs-body {
+        display: flex;
+        flex-direction: column;
+        /* Stack elements on top of each other on mobile */
+        align-items: center;
+        /* Center-align content on mobile */
+        padding: 20px;
+        /* Adjust padding for mobile */
+    }
+    .blog-image {
+        width: 100%;
+    }
+    .content {
+        width: 100%;
+        /* Full width on mobile */
+    }
+    .content .content-title {
+        font-size: 24px;
+        /* Adjust font size for mobile */
+        margin-bottom: 10px;
+        /* Adjust margin for mobile */
+    }
+    .content .content-body {
+        margin-bottom: 20px;
+        /* Adjust margin for mobile */
+        font-size: 16px;
+        /* Adjust font size for mobile */
+        line-height: 140%;
+        /* Adjust line height for mobile */
+    }
+    .blogs-body .image2 {
+        width: 100%;
+    }
+    .image2 {
+        margin-bottom: 20px;
+        /* Adjust margin for mobile */
+    }
+}

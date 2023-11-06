@@ -54,3 +54,43 @@
     background: #773710;
     border-radius: 50%;
 }
+
+
+/* Mobile-responsive CSS */
+
+@media only screen and (max-width: 768px) {
+    .twoImage {
+        flex-direction: column;
+        /* Stack columns on top of each other for mobile */
+        align-items: center;
+        /* Center-align content on mobile */
+        padding: 20px;
+        /* Adjust padding for mobile */
+    }
+    .twoImage .two-left-col,
+    .twoImage .two-right-col {
+        flex-basis: 100%;
+        /* Full width for mobile */
+        text-align: center;
+        /* Center-align text on mobile */
+        margin-bottom: 20px;
+        /* Adjust margin for mobile */
+    }
+    .twoImage .two-left-col img,
+    .twoImage .two-right-col img {
+        width: 100%;
+        /* Full width for mobile */
+        max-width: none;
+        /* Reset max-width for mobile */
+    }
+    .twoImage .person-details p {
+        font-size: 24px;
+        /* Adjust font size for mobile */
+    }
+    .twoImage .circle {
+        height: 10px;
+        /* Adjust circle size for mobile */
+        width: 10px;
+        /* Adjust circle size for mobile */
+    }
+}

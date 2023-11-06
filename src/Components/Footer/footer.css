@@ -87,3 +87,116 @@
 .map a {
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        /* Remove fixed height for better mobile responsiveness */
+        padding: 20px;
+        /* Adjust padding for mobile */
+        width: 100%;
+        max-width: 100%;
+        /* Remove max-width for better mobile responsiveness */
+        background: #441B04;
+        color: #FFFBEB;
+    }
+    .footer .first-row {
+        display: flex;
+        flex-direction: column;
+        /* Stack elements on top of each other on mobile */
+        align-items: center;
+        /* Center-align content on mobile */
+        text-align: center;
+        /* Center-align text on mobile */
+    }
+    .left-col .summary {
+        font-size: 18px;
+        /* Adjust font size for mobile */
+        font-weight: 200;
+        line-height: normal;
+        margin-bottom: 40px;
+        text-align: left;
+        /* Adjust margin for mobile */
+    }
+    .left-col .social-btns {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        /* Center-align social buttons on mobile */
+        gap: 15px;
+        text-align: left;
+        /* border: 2px solid black; */
+    }
+    .social-btns button {
+        width: 223px;
+        /* Full width on mobile */
+        max-width: 200px;
+        /* Limit maximum width for larger screens */
+        height: 40px;
+        background: transparent;
+        border: none;
+        outline: none;
+        color: #FFFBEB;
+        border-radius: 90px;
+        border: 2px solid #FFFBEB;
+        cursor: pointer;
+        font-size: 24px;
+    }
+    .kafart-art {
+        position: relative;
+        top: -20px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        /* Stack elements on top of each other on mobile */
+        align-items: center;
+        /* Center-align content on mobile */
+        text-align: center;
+        /* Center-align text on mobile */
+    }
+    .kafart-art .owner-ship-text {
+        display: flex;
+        flex-direction: column;
+        /* Stack elements on top of each other on mobile */
+        align-items: center;
+        /* Center-align content on mobile */
+        font-size: 16px;
+        /* Adjust font size for mobile */
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+    .right-col {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        /* Adjust gap between elements for mobile */
+        text-align: left;
+    }
+    .designer {
+        text-decoration: underline;
+    }
+    .phone-number {
+        text-decoration: underline;
+        margin-bottom: 15px;
+        /* Adjust margin for mobile */
+    }
+    .email a,
+    .map a {
+        color: #FFFBEB;
+        text-decoration: underline;
+    }
+    .owner-ship-text {
+        text-align: left;
+        /* border: 2px solid black; */
+    }
+    .owner-ship-text .text {
+        text-align: left;
+    }
+    .owner-ship-text .designer {
+        /* border: 2px solid black; */
+        text-align: left;
+    }
+}

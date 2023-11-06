@@ -72,3 +72,70 @@
 .hero-btn:hover {
     transform: scale(1.11);
 }
+
+@media only screen and (max-width: 768px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+        /* Stack columns on top of each other on mobile */
+        align-items: center;
+        /* Center-align content on mobile */
+        background: #FFFBEB;
+        width: 100%;
+        max-width: 100%;
+        /* Remove max-width for better mobile responsiveness */
+        text-align: center;
+        /* Center-align text on mobile */
+        flex-wrap: wrap;
+    }
+    .left-col {
+        flex-basis: 100%;
+        padding: 20px;
+        /* Adjust padding for mobile */
+        text-align: center;
+    }
+    .right-col {
+        flex-basis: 100%;
+        /* display: none; */
+        /* Hide the image on mobile */
+    }
+    .heroTitle {
+        font-size: 36px;
+        /* Adjust font size for mobile */
+        margin-bottom: 10px;
+        /* Adjust margin for mobile */
+    }
+    .dash {
+        width: 20%;
+        /* Adjust the width of the dash for mobile */
+        margin-bottom: 10px;
+        /* Adjust margin for mobile */
+    }
+    .heroText {
+        margin-bottom: 20px;
+        /* Adjust margin for mobile */
+        font-size: 18px;
+        /* Adjust font size for mobile */
+        text-align: left;
+    }
+    .hero-btn {
+        width: 100%;
+        /* Full width on mobile */
+        max-width: 335px;
+        /* Limit maximum width for larger screens */
+        padding: 15px 20px;
+        /* Adjust padding for mobile */
+        font-size: 18px;
+        /* Adjust font size for mobile */
+        margin-bottom: 20px;
+        /* Adjust margin for mobile */
+        margin: 25px auto;
+    }
+    .hero-btn:hover {
+        transform: scale(1.05);
+        /* Adjust hover scaling for mobile */
+    }
+    .right-col img {
+        padding: 20px;
+    }
+}

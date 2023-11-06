@@ -63,3 +63,66 @@ a {
 a:hover {
     color: black;
 }
+
+
+/* Your existing CSS for larger screens here */
+
+@media only screen and (max-width: 768px) {
+    .events {
+        /* Add your mobile-specific styles here */
+        padding: 20px;
+        /* Adjust padding for mobile */
+    }
+    .events-cards {
+        display: flex;
+        flex-direction: column;
+        /* Stack cards on top of each other on mobile */
+        align-items: center;
+        /* Center-align content on mobile */
+        gap: 20px;
+        /* Adjust gap between cards for mobile */
+    }
+    .event-title {
+        font-size: 36px;
+        /* Adjust font size for mobile */
+        margin-bottom: 30px;
+        /* Adjust margin for mobile */
+    }
+    .event-card {
+        border: 2px solid grey;
+        width: 100%;
+        /* Full width on mobile */
+        padding: 20px;
+        /* Adjust padding for mobile */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+        /* Adjust gap between elements for mobile */
+        transition: transform 0.5s;
+        cursor: pointer;
+    }
+    .event-card:hover {
+        transform: scale(1.1);
+    }
+    .event-card .card-title {
+        font-size: 28px;
+        /* Adjust font size for mobile */
+        line-height: normal;
+        /* Reset line-height */
+        text-transform: uppercase;
+    }
+    .event-card .card-ticket {
+        font-size: 20px;
+        /* Adjust font size for mobile */
+        text-transform: uppercase;
+    }
+    a,
+    Link {
+        color: black;
+    }
+    a:hover,
+    Link:hover {
+        color: black;
+    }
+}

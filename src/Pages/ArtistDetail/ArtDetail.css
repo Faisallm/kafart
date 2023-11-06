@@ -131,3 +131,141 @@
     margin-right: 40px;
     cursor: pointer;
 }
+
+
+/* Your existing CSS for larger screens here */
+
+@media only screen and (max-width: 768px) {
+    .artist-detail {
+        /* Add your mobile-specific styles here */
+        padding: 20px;
+        /* Adjust padding for mobile */
+        display: flex;
+        flex-direction: column;
+        /* Stack elements on top of each other on mobile */
+        align-items: center;
+        /* Center-align content on mobile */
+        justify-content: center;
+        /* Center-align content on mobile */
+    }
+    .artist-detail-col-left,
+    .artist-detail-col-right {
+        flex: 1;
+        width: 100%;
+        /* Full width on mobile */
+        text-align: left;
+        /* Center-align text on mobile */
+        gap: 10px;
+        /* Adjust gap for mobile */
+    }
+    .artist-detail-col-right .artist-image img {
+        width: 100%;
+        cursor: pointer;
+        transition: transform 0.5s;
+    }
+    .artist-detail-col-right .artist-image img:hover {
+        transform: scale(1.11);
+    }
+    .artist-name {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* Center-align content on mobile */
+        gap: 20px;
+        /* Adjust gap for mobile */
+    }
+    .artist-name div {
+        font-size: 20px;
+        /* Adjust font size for mobile */
+        line-height: normal;
+        /* Reset line-height */
+        font-size: 14px;
+    }
+    .artist-name .name {
+        font-size: 32px;
+        /* Adjust font size for mobile */
+        line-height: 80px;
+        /* Adjust line-height for mobile */
+        position: static;
+        /* Reset position for mobile */
+        top: 0;
+        /* Reset top for mobile */
+        z-index: auto;
+        /* Reset z-index for mobile */
+    }
+    .artist-background p:first-child {
+        font-size: 32px;
+    }
+    .artist-background p {
+        font-size: 16px;
+        line-height: 150%;
+        font-weight: 400;
+    }
+    .artist-background p:first-child,
+    .artist-background p {
+        /* Adjust font size for mobile */
+        line-height: normal;
+        /* Reset line-height */
+        margin-bottom: 20px;
+        /* Adjust margin for mobile */
+    }
+    .artist-works p:first-child {
+        font-size: 32px;
+    }
+    .artist-works p {
+        font-size: 16px;
+        line-height: 150%;
+        font-weight: 400;
+    }
+    .artist-works p:first-child,
+    .artist-works p {
+        /* Adjust font size for mobile */
+        line-height: normal;
+        /* Reset line-height */
+        margin-bottom: 20px;
+        /* Adjust margin for mobile */
+    }
+    .cardd {
+        /* Adjust card styling for mobile */
+        text-align: center;
+        /* Center-align text on mobile */
+        display: flex;
+        flex-direction: column;
+        /* Stack elements on top of each other on mobile */
+        align-items: center;
+        /* Center-align content on mobile */
+        gap: 20px;
+        /* Adjust gap for mobile */
+        border: none;
+        /* Remove border for mobile */
+        padding: 20px;
+        /* Adjust padding for mobile */
+    }
+    .card-imager img {
+        width: 100%;
+        /* Full width on mobile */
+    }
+    .cardd .person-details {
+        width: 100%;
+        /* Full width on mobile */
+    }
+    .cardd .person-details p {
+        font-size: 20px;
+        /* Adjust font size for mobile */
+    }
+    .cardd .circle {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        background: #773710;
+        border-radius: 50%;
+    }
+    .card-button {
+        font-size: 20px;
+        /* Adjust font size for mobile */
+        margin-right: 0;
+        /* Remove margin for mobile */
+        padding: 10px 20px;
+        /* Adjust padding for mobile */
+    }
+}

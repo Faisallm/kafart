@@ -30,22 +30,24 @@ const Hero = () => {
           <img src={Art1} alt="art1" />
         </div>
       </div>
-      <div className="exhibition" style={{ flexDirection: "row-reverse" }}>
+
+      <div className="exhibition">
         <div className="left-col">
           <div className="exhibition-title">
-            <span>2</span>Perfomance
+            <span>1</span>Exhibitions
           </div>
 
           <div className="exhibition-text">
-            Immerse yourself in the dynamic <br /> world of African performing
-            arts <br />, featuring music, dance, theater, and <br /> captivating
-            live performances.
+            Explore a vibrant showcase of African artistry, from contemporary{" "}
+            <br />
+            masterpieces to traditional crafts.
           </div>
         </div>
         <div className="right-col">
-          <img src={Art2} alt="art1" />
+          <img src={Art1} alt="art1" />
         </div>
       </div>
+
       <div className="exhibition">
         <div className="left-col">
           <div className="exhibition-title">
