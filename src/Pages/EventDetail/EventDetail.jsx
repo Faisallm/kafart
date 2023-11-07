@@ -43,7 +43,7 @@ const EventDetail = () => {
           name3="oladimeji odonsi"
         />
       </div>
-      <div className="intro-text">
+      <div className="intro-text last">
         The performing arts took center stage at KAFART 2021, where dance,
         music, theater, and live performances captured hearts and minds. The
         stage came alive with the energy and passion of African performers,

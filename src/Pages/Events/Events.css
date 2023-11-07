@@ -101,6 +101,7 @@ a:hover {
         /* Adjust gap between elements for mobile */
         transition: transform 0.5s;
         cursor: pointer;
+        height: 250px;
     }
     .event-card:hover {
         transform: scale(1.1);

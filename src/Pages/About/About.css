@@ -189,101 +189,108 @@
 }
 
 @media only screen and (max-width: 768px) {
-    /* Your existing CSS for larger screens here */
-    @media only screen and (max-width: 768px) {
-        .about {
-            /* Add your mobile-specific styles here */
-            width: 100%;
-            max-width: 100%;
-            /* Remove max-width for better mobile responsiveness */
-            padding: 20px;
-            /* Adjust padding for mobile */
-            text-align: center;
-            /* Center-align content on mobile */
-        }
-        .heroSectionImage img {
-            width: 100%;
-            position: relative;
-        }
-        .about-big-vector-graphics {
-            position: relative;
-            margin-top: 0;
-            /* Reset margin for mobile */
-            margin-left: 0;
-            /* Reset margin for mobile */
-        }
-        .aboutDetailsSection {
-            background: #F8C227;
-            margin-top: 0;
-            /* Reset margin for mobile */
-            padding: 20px;
-            /* Adjust padding for mobile */
-        }
-        .aboutDetailsSection h1 {
-            font-size: 36px;
-            /* Adjust font size for mobile */
-            margin-bottom: 20px;
-            /* Adjust margin for mobile */
-        }
-        .aboutDetailsSection p {
-            width: 100%;
-            /* Full width on mobile */
-            font-size: 16px;
-            /* Adjust font size for mobile */
-            margin-bottom: 10px;
-            /* Adjust margin for mobile */
-        }
-        .aboutTeamsSection {
-            padding: 20px;
-            /* Adjust padding for mobile */
-            display: flex;
-            flex-direction: column;
-            /* Stack elements on top of each other on mobile */
-            align-items: center;
-            /* Center-align content on mobile */
-            gap: 10px;
-            /* Adjust gap between elements for mobile */
-        }
-        .aboutTeamsSection .team-card {
-            width: 100%;
-            /* Full width on mobile */
-        }
-        .aboutTeamsSection .team-card img:first-child {
-            width: 100%;
-            /* Full width on mobile */
-            margin-bottom: 10px;
-            /* Adjust margin for mobile */
-            height: auto;
-            /* Maintain aspect ratio */
-        }
-        .bloby {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            /* Center-align elements on mobile */
-            gap: 10px;
-            /* Adjust gap for mobile */
-            margin: 10px 0;
-            /* Adjust margin for mobile */
-        }
-        .team-blob {
-            width: 10px;
-            /* Adjust width for mobile */
-            height: 10px;
-            /* Adjust height for mobile */
-            border-radius: 50%;
-        }
-        .bloby img {
-            align-self: center;
-            /* Center-align image on mobile */
-        }
-        .buttons button {
-            font-size: 16px;
-            /* Adjust font size for mobile */
-            margin-right: 10px;
-            /* Adjust margin for mobile */
-            padding: 3px 10px;
-            /* Adjust padding for mobile */
-        }
+    .about {
+        /* Add your mobile-specific styles here */
+        width: 100%;
+        max-width: 100%;
+        /* Remove max-width for better mobile responsiveness */
+        padding: 20px;
+        /* Adjust padding for mobile */
+        text-align: center;
+        /* Center-align content on mobile */
+    }
+    .heroSectionImage img {
+        width: 100%;
+        position: relative;
+    }
+    .about-big-vector-graphics {
+        position: absolute;
+        margin-top: -220px;
+        /* Reset margin for mobile */
+        margin-left: 0;
+        /* Reset margin for mobile */
+    }
+    .aboutDetailsSection {
+        background: #F8C227;
+        margin-top: -10px;
+        /* Reset margin for mobile */
+        padding: 20px;
+        /* Adjust padding for mobile */
+        text-align: left;
+    }
+    .aboutDetailsSection h1 {
+        font-size: 24px;
+        /* Adjust font size for mobile */
+        margin-bottom: 20px;
+        /* Adjust margin for mobile */
+        font-weight: 500;
+        text-align: left;
+    }
+    .aboutDetailsSection p {
+        width: 100%;
+        /* Full width on mobile */
+        font-size: 18px;
+        /* Adjust font size for mobile */
+        margin-bottom: 10px;
+        line-height: 150%;
+        /* Adjust margin for mobile */
+    }
+    .aboutTeamsSection {
+        padding: 20px;
+        /* Adjust padding for mobile */
+        display: flex;
+        flex-direction: column;
+        /* Stack elements on top of each other on mobile */
+        align-items: center;
+        /* Center-align content on mobile */
+        gap: 10px;
+        /* Adjust gap between elements for mobile */
+    }
+    .aboutTeamsSection .team-card {
+        width: 100%;
+        /* Full width on mobile */
+        text-align: left;
+    }
+    .aboutTeamsSection .team-card img:first-child {
+        width: 100%;
+        /* Full width on mobile */
+        margin-bottom: 10px;
+        /* Adjust margin for mobile */
+        height: auto;
+        /* Maintain aspect ratio */
+        transition: transform 0.5s;
+        cursor: pointer;
+    }
+    .aboutTeamsSection .team-card img:first-child:hover {
+        transform: scale(1.11);
+    }
+    .bloby {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        /* Center-align elements on mobile */
+        gap: 10px;
+        /* Adjust gap for mobile */
+        margin: 10px 0;
+        /* Adjust margin for mobile */
+    }
+    .team-blob {
+        width: 10px;
+        /* Adjust width for mobile */
+        height: 10px;
+        /* Adjust height for mobile */
+        border-radius: 50%;
+    }
+    .bloby img {
+        align-self: center;
+        /* Center-align image on mobile */
+    }
+    .buttons button {
+        font-size: 16px;
+        /* Adjust font size for mobile */
+        margin-right: 10px;
+        /* Adjust margin for mobile */
+        padding: 3px 10px;
+        /* Adjust padding for mobile */
     }
 }

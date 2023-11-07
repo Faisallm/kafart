@@ -132,6 +132,27 @@
 /* Your existing CSS for larger screens here */
 
 @media only screen and (max-width: 768px) {
+    .main-title {
+        font-size: 32px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    .main-stats {
+        display: block;
+    }
+    .main-stats li {
+        margin-bottom: 15px;
+        font-weight: 600;
+    }
+    .intro-text {
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 150%;
+    }
+    .intro-text.last {
+        margin-top: -95px;
+    }
     .blog {
         padding: 20px;
         /* Adjust padding for mobile */

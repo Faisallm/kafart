@@ -1,5 +1,5 @@
 .scroller {
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
     white-space: nowrap;
     width: 100%;
     z-index: 100000;
@@ -10,6 +10,7 @@
     margin: 0 auto;
     max-width: 1440px;
     background: #FFFBEB;
+    height: 350px;
 }
 
 .scroll-container {
