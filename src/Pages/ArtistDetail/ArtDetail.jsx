@@ -1,11 +1,13 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 import "./ArtDetail.css";
-import cardSmall from '../../Components/FashionPageAssets/fashion-small.png';
+import cardSmall from "../../Components/FashionPageAssets/fashion-small.png";
 import Scroller from "../../Components/Scroller/Scroller";
-import scroller1 from '../../Components/ArtistAssets/artist6.png';
-import scroller2 from '../../Components/ArtistAssets/artist7.png';
-import scroller3 from '../../Components/ArtistAssets/artist8.png';
+import scroller1 from "../../Components/ArtistAssets/artist6.png";
+import scroller2 from "../../Components/ArtistAssets/artist7.png";
+import scroller3 from "../../Components/ArtistAssets/artist8.png";
+import Event1 from "../../Components/EventAssets/event1.png";
+import Event2 from "../../Components/EventAssets/event2.png";
 
 const ArtDetail = () => {
   const location = useLocation();
@@ -50,25 +52,26 @@ const ArtDetail = () => {
           </div>
         </div>
       </div>
-      <Scroller
-          image1={scroller1}
+      <div style={{ marginBottom: "110px" }}>
+        <Scroller
+          image1={Event1}
           name1="oladimeji odonsi"
-          image2={scroller2}
+          image2={Event2}
           name2="oladimeji odonsi"
-          image3={scroller3}
+          image3={Event2}
           name3="oladimeji odonsi"
         />
+      </div>
+
       <div className="cardd">
         <div className="card-imager">
-          <img style={{ width: '144px' }} src={cardSmall} alt="Card Image" />
+          <img style={{ width: "144px" }} src={cardSmall} alt="Card Image" />
         </div>
         <div className="person-details">
           <p>{secondName}</p>
           <span className="circle"> </span> BY {firstName}
         </div>
-        <div className="card-button">
-          View
-        </div>
+        <div className="card-button">View</div>
       </div>
     </div>
   );

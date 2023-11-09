@@ -1,5 +1,5 @@
 .scroller {
-    /* overflow-x: scroll; */
+    overflow-x: scroll;
     white-space: nowrap;
     width: 100%;
     z-index: 100000;
@@ -10,13 +10,13 @@
     margin: 0 auto;
     max-width: 1440px;
     background: #FFFBEB;
-    height: 350px;
+    /* height: 350px; */
 }
 
 .scroll-container {
     display: flex;
     gap: 20px;
-    animation: scroll 20s linear 1s infinite;
+    /* animation: scroll 20s linear 1s infinite; */
     /* Adjust duration (10s) as needed */
 }
 
@@ -32,14 +32,15 @@
 }
 
 .scroll-image {
-    width: 70vw;
-    height: 500px;
+    /* border: 1px solid black; */
+    width: 1200px;
+    height: auto;
     text-transform: uppercase;
     text-align: left;
 }
 
 .scroll-image img {
-    max-width: 100%;
+    max-width: 900px;
     height: auto;
 }
 
@@ -68,17 +69,17 @@
         display: flex;
         gap: 20px;
         /* Keep scrolling animation if desired */
-        animation: scroll 20s linear 1s infinite;
+        /* animation: scroll 20s linear 1s infinite; */
     }
     .scroll-image {
-        width: 100%;
+        width: 600px;
         /* Full width for mobile */
         height: auto;
         /* Automatically adjust height */
         text-transform: uppercase;
     }
     .scroll-image img {
-        max-width: 100%;
+        max-width: 300px;
         height: auto;
     }
 }

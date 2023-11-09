@@ -17,6 +17,12 @@ import Bottom4 from "../../Components/HomePageAssets/b4.png";
 import Blob from "../../Components/BlogAssets/Ellipse 1.svg";
 import Event1 from "../../Components/EventAssets/event1.png";
 import Event2 from "../../Components/EventAssets/event2.png";
+import  newfashion1 from '../../Components/newFashionPageAssets/newfashion1.png'
+import  newfashion2 from '../../Components/newFashionPageAssets/newfashion2.png'
+import  newfashion3 from '../../Components/newFashionPageAssets/newfashion3.png'
+import newfashion4 from '../../Components/newFashionPageAssets/newfashion4.png'
+import newfashion5 from '../../Components/newFashionPageAssets/newfashion5.png'
+import newfashion6 from '../../Components/newFashionPageAssets/newfashion6.png'
 
 const Home = () => {
   
@@ -37,12 +43,15 @@ const Home = () => {
           define their work.
         </div>
         <Scroller
-          image1={Event1}
-          name1="oladimeji odonsi"
-          image2={Event2}
-          name2="oladimeji odonsi"
-          image3={Event2}
-          name3="oladimeji odonsi"
+          image1={newfashion1}
+          name1="NUCY"
+          name11='nafisa hafiz'
+          image2={newfashion2}
+          name2="babayo"
+          name22='babayo shehu'
+          image3={newfashion3}
+          name3="romzy"
+          name33="romeo moukagny"
         />
         <button className="second-driver-btn">View All</button>
       </div>
@@ -58,12 +67,15 @@ const Home = () => {
           boundless imagination that drives these artists to create.
         </div>
         <Scroller
-          image1={Event1}
-          name1="oladimeji odonsi"
-          image2={Event2}
-          name2="oladimeji odonsi"
-          image3={Event2}
-          name3="oladimeji odonsi"
+          image1={newfashion4}
+          name1="new phase"
+          name11="imran tilde"
+          image2={newfashion5}
+          name2="knowmads"
+          name22='abdulrazaq ahmed'
+          image3={newfashion6}
+          name3="sarina"
+          name33="azuka Ajoh"
         />
         <button className="second-driver-btn">View All</button>
       </div>
