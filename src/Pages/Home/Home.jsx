@@ -21,17 +21,17 @@ import Event2 from "../../Components/EventAssets/event2.png";
 const Home = () => {
   
   return (
-    <div className="home" data-scroll-container>
+    <div className="home">
       <EPCHero />
       <Hero />
-      <div className="driver" data-scroll-section>
+      <div className="driver" >
         <div className="home-title" >
           <p data-scroll>
             Fashion Designers<span>12</span>
           </p>
-          <button  data-scroll data-scroll-speed="2">View All</button>
+          <button  >View All</button>
         </div>
-        <div className="driver-content" data-scroll>
+        <div className="driver-content" >
           Explore their creations, discover the inspirations behind their
           designs, and delve into the world of fabrics, colors, and forms that
           define their work.
