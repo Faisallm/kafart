@@ -19,18 +19,19 @@ import Event1 from "../../Components/EventAssets/event1.png";
 import Event2 from "../../Components/EventAssets/event2.png";
 
 const Home = () => {
+  
   return (
-    <div className="home">
+    <div className="home" data-scroll-container>
       <EPCHero />
       <Hero />
-      <div className="driver">
-        <div className="home-title">
-          <p>
+      <div className="driver" data-scroll-section>
+        <div className="home-title" >
+          <p data-scroll>
             Fashion Designers<span>12</span>
           </p>
-          <button>View All</button>
+          <button  data-scroll data-scroll-speed="2">View All</button>
         </div>
-        <div className="driver-content">
+        <div className="driver-content" data-scroll>
           Explore their creations, discover the inspirations behind their
           designs, and delve into the world of fabrics, colors, and forms that
           define their work.

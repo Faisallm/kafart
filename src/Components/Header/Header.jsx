@@ -40,7 +40,7 @@ const Header = () => {
           </Link>
         </li>
         <Link to="/blog" style={{ textDecoration: "none", color: "#000" }}>
-          Bloga
+          Blog
         </Link>
       </ul>
       <div className="get-ticket">Get your ticket</div>
