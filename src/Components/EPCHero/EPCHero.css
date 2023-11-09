@@ -27,6 +27,11 @@
     flex-basis: 50%;
     width: 100%;
     /* border: 2px solid black; */
+    transition: transform 0.5s;
+}
+
+.right-col img:hover {
+    transform: scale(1.11);
 }
 
 .heroTitle {

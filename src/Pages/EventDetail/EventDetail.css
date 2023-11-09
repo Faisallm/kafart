@@ -195,4 +195,7 @@
         gap: 10px;
         /* Adjust gap between cards for mobile */
     }
+    .gallery {
+        margin-bottom: 110px;
+    }
 }

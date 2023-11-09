@@ -34,12 +34,75 @@
     border: 2px solid #000;
 }
 
+.header-menu {
+    display: none;
+}
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    /* Initially hidden outside the screen */
+    width: 70%;
+    max-width: 300px;
+    height: 100%;
+    background: #FFFBEB;
+    z-index: 10001;
+    /* Higher z-index to overlay content */
+    transition: right 0.5s;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.mobile-menu-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* padding: 20px; */
+}
+
+.mobile-menu-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 120%;
+    transition: color 0.3s;
+}
+
+.mobile-menu-links a:hover {
+    color: #3D3D3D;
+}
+
+.mobile-menu.open {
+    right: 0;
+}
+
+.mobile-close {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    height: 36px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    border-radius: 90px;
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 768px) {
     .header {
         display: flex;
         flex-direction: column;
         /* Stack elements on top of each other on mobile */
-        align-items: center;
+        align-items: flex-start;
         /* Center-align content on mobile */
         width: 100%;
         height: auto;
@@ -49,22 +112,43 @@
         margin: 0;
         max-width: 100%;
         /* Remove max-width for better mobile responsiveness */
-        position: static;
+        position: sticky;
         /* Remove sticky positioning for mobile */
-        z-index: 0;
+        z-index: 10;
         /* Remove z-index for mobile */
+        padding: 0px 20px;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
     .logo img {
-        width: 150px;
+        width: 130px;
         /* Adjust logo width for mobile */
         height: auto;
         /* Maintain aspect ratio */
-        margin: 20px 0;
+        margin: 20px 150px 20px 0px;
         /* Adjust margin for mobile */
+    }
+    .header-menu {
+        display: inline-block;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 120%;
+        height: 36px;
+        border: 2px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 30px;
+        border-radius: 90px;
+        cursor: pointer;
     }
     .navigation-links {
         list-style-type: none;
-        display: flex;
+        display: none;
         flex-direction: column;
         /* Stack navigation links on top of each other on mobile */
         align-items: center;
@@ -73,6 +157,7 @@
         /* Adjust gap between navigation links for mobile */
     }
     .get-ticket {
+        display: none;
         width: 100%;
         /* Full width on mobile */
         max-width: 300px;

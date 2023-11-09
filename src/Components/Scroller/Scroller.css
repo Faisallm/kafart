@@ -35,9 +35,50 @@
     width: 70vw;
     height: 500px;
     text-transform: uppercase;
+    text-align: left;
 }
 
 .scroll-image img {
     max-width: 100%;
     height: auto;
+}
+
+.scroll-image .blob {
+    width: 9px;
+    display: inline;
+}
+
+.scroll-image div {
+    margin-top: 4px;
+    font-size: 12px;
+}
+
+
+/* Mobile-responsive styles */
+
+@media (max-width: 768px) {
+    .scroller {
+        /* Adjust styles for smaller screens */
+        white-space: nowrap;
+        height: auto;
+        /* Remove fixed height */
+        /* overflow-x: scroll; */
+    }
+    .scroll-container {
+        display: flex;
+        gap: 20px;
+        /* Keep scrolling animation if desired */
+        animation: scroll 20s linear 1s infinite;
+    }
+    .scroll-image {
+        width: 100%;
+        /* Full width for mobile */
+        height: auto;
+        /* Automatically adjust height */
+        text-transform: uppercase;
+    }
+    .scroll-image img {
+        max-width: 100%;
+        height: auto;
+    }
 }

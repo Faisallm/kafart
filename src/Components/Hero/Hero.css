@@ -114,6 +114,11 @@
         /* Adjust image width for mobile */
         height: auto;
         /* Maintain aspect ratio */
+        transition: transform 0.5s;
+        cursor: pointer;
+    }
+    .exhibition .right-col img:hover {
+        transform: scale(1.11);
     }
     .exhibition-title {
         font-size: 24px;

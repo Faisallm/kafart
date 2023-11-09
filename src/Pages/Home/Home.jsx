@@ -15,6 +15,8 @@ import Bottom2 from "../../Components/HomePageAssets/b2.png";
 import Bottom3 from "../../Components/HomePageAssets/b3.png";
 import Bottom4 from "../../Components/HomePageAssets/b4.png";
 import Blob from "../../Components/BlogAssets/Ellipse 1.svg";
+import Event1 from "../../Components/EventAssets/event1.png";
+import Event2 from "../../Components/EventAssets/event2.png";
 
 const Home = () => {
   return (
@@ -34,13 +36,14 @@ const Home = () => {
           define their work.
         </div>
         <Scroller
-          image1={fashion1}
-          name1="NUCY"
-          image2={fashion2}
-          name2="BABAYO"
-          image3={fashion3}
-          name3="ROMZY"
+          image1={Event1}
+          name1="oladimeji odonsi"
+          image2={Event2}
+          name2="oladimeji odonsi"
+          image3={Event2}
+          name3="oladimeji odonsi"
         />
+        <button className="second-driver-btn">View All</button>
       </div>
       <div className="driver">
         <div className="home-title">
@@ -54,13 +57,14 @@ const Home = () => {
           boundless imagination that drives these artists to create.
         </div>
         <Scroller
-          image1={artist1}
-          name1="NUCY"
-          image2={artist2}
-          name2="BABAYO"
-          image3={artist3}
-          name3="ROMZY"
+          image1={Event1}
+          name1="oladimeji odonsi"
+          image2={Event2}
+          name2="oladimeji odonsi"
+          image3={Event2}
+          name3="oladimeji odonsi"
         />
+        <button className="second-driver-btn">View All</button>
       </div>
       <div className="bottom-home-page">
         <div className="bottom-left-column">
