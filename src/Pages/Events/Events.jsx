@@ -10,7 +10,7 @@ const Events = () => {
         <Link to="/events-detail" state={{ title: "#KAFART 2023" }}>
           <div className="event-card">
             <div className="card-title">#KAFART <span>2023</span></div>
-            <div className="card-ticket">REGISTER</div>
+            <div className="card-ticket">GET YOUR TICKET</div>
           </div>
         </Link>
 

@@ -25,7 +25,7 @@
 .event-card {
     border: 2px solid grey;
     width: 400px;
-    padding: 35px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -50,6 +50,7 @@
     font-size: 24px;
     font-weight: 400;
     text-transform: uppercase;
+    /* border: 1px solid black; */
 }
 
 Link {

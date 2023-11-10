@@ -55,9 +55,9 @@
 }
 
 .aboutTeamsSection .team-card img:first-child {
-    width: 250px;
+    width: 100%;
     margin-bottom: 20px;
-    height: 300px;
+    height: auto;
 }
 
 .bloby {

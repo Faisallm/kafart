@@ -6,6 +6,11 @@ import Event2 from "../../Components/EventAssets/event2.png";
 import Event3 from "../../Components/EventAssets/event3.png";
 import Event0 from "../../Components/EventAssets/event0.png";
 import Scroller from "../../Components/Scroller/Scroller";
+import newEvent1 from "../../Components/newEventAssets/newevent1.png";
+import newEvent2 from "../../Components/newEventAssets/newevent2.png";
+import newEvent3 from "../../Components/newEventAssets/newevent3.png";
+import newEvent4 from "../../Components/newEventAssets/newevent4.png";
+import newEvent5 from "../../Components/newEventAssets/newevent5.png";
 
 const EventDetail = () => {
   const location = useLocation();
@@ -35,12 +40,16 @@ const EventDetail = () => {
       <div className="gallery">
         <div className="gallery-title">galleria</div>
         <Scroller
-          image1={Event1}
+          image1={newEvent1}
           name1="oladimeji odonsi"
-          image2={Event2}
+          image2={newEvent2}
           name2="oladimeji odonsi"
-          image3={Event2}
+          image3={newEvent3}
           name3="oladimeji odonsi"
+          image4={newEvent4}
+          name4="oladimeji odonsi"
+          image5={newEvent5}
+          name5="oladimeji odonsi"
         />
       </div>
       <div className="intro-text last">

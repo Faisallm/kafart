@@ -10,10 +10,20 @@
     margin-bottom: 40px;
 }
 
-.card img {
+.faisal-card-image {
     width: 100%;
     cursor: pointer;
     transition: transform 0.5s;
+    /* height: 600px; */
+    /* border: 1px solid black; */
+}
+
+.blob {
+    width: 100%;
+    cursor: pointer;
+    transition: transform 0.5s;
+    height: auto;
+    /* border: 1px solid black; */
 }
 
 .card img:hover {
@@ -36,6 +46,7 @@
     }
     .card img {
         width: 100%;
+        height: auto;
         /* Full width for mobile screens */
     }
 }

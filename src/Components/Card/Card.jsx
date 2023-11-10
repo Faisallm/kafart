@@ -7,7 +7,7 @@ const Card = ({ image, title, blob, name }) => {
   return (
     <div className="card">
       <Link to="/blog-detail" state={{ title, image, name, image2 :Caravan  }}>
-        <img src={image} alt="Desert Safari" />
+        <img src={image} alt="Desert Safari" className="faisal-card-image" />
       </Link>
       <p>{title}</p>
       <div>

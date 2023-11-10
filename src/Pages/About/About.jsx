@@ -2,10 +2,14 @@ import React from "react";
 import "./About.css";
 import About1 from "../../Components/AboutAsset/about1.jpg";
 import About2 from "../../Components/AboutAsset/about2.jpg";
-import About3 from '../../Components/AboutAsset/about3.jpg';
-import About4 from '../../Components/AboutAsset/about4.jpg';
-import About5 from '../../Components/AboutAsset/about5.jpg';
+import About3 from "../../Components/AboutAsset/about3.jpg";
+import About4 from "../../Components/AboutAsset/about4.jpg";
+import About5 from "../../Components/AboutAsset/about5.jpg";
 import Blob from "../../Components/BlogAssets/Ellipse 1.svg";
+import newabout1 from "../../Components/newAboutAssets/newabout1.png";
+import newabout2 from "../../Components/newAboutAssets/newabout2.png";
+import newabout3 from "../../Components/newAboutAssets/newabout3.png";
+import newabout4 from "../../Components/newAboutAssets/newabout4.png";
 
 const About = () => {
   return (
@@ -69,11 +73,11 @@ const About = () => {
       </div>
       <div className="aboutTeamsSection">
         <div className="team-card">
-          <img src={About2} alt="Team Card Image" />
+          <img src={newabout1} alt="Team Card Image" />
           <p>HENRY, AUTHUR</p>
           <div className="bloby">
             {/* <img src={Blob} alt="Circle" style={{ width: '15px', display: 'inline' }} />  */}
-            <di className='team-blob'></di>
+            <di className="team-blob"></di>
             <p>Executive Director</p>
           </div>
           <div className="buttons">
@@ -82,11 +86,11 @@ const About = () => {
           </div>
         </div>
         <div className="team-card">
-          <img src={About3} alt="Team Card Image" />
+          <img src={newabout2} alt="Team Card Image" />
           <p>BLACK, MARVIN</p>
           <div className="bloby">
             {/* <img src={Blob} alt="Circle" style={{ width: '15px', display: 'inline' }} />  */}
-            <di className='team-blob'></di>
+            <di className="team-blob"></di>
             <p>EDITORIAL Director</p>
           </div>
           <div className="buttons">
@@ -96,11 +100,11 @@ const About = () => {
           </div>
         </div>
         <div className="team-card">
-          <img src={About4} alt="Team Card Image" />
+          <img src={newabout3} alt="Team Card Image" />
           <p>MILES, ESTHER</p>
           <div className="bloby">
             {/* <img src={Blob} alt="Circle" style={{ width: '15px', display: 'inline' }} />  */}
-            <di className='team-blob'></di>
+            <di className="team-blob"></di>
             <p>PROGRAM MANAGER</p>
           </div>
           <div className="buttons">
@@ -109,11 +113,11 @@ const About = () => {
           </div>
         </div>
         <div className="team-card">
-          <img src={About5} alt="Team Card Image" />
+          <img src={newabout4} alt="Team Card Image" />
           <p>FLORES, JUANITA</p>
           <div className="bloby">
             {/* <img src={Blob} alt="Circle" style={{ width: '15px', display: 'inline' }} />  */}
-            <di className='team-blob'></di>
+            <di className="team-blob"></di>
             <p>ART EXHIBITION Director</p>
           </div>
           <div className="buttons">

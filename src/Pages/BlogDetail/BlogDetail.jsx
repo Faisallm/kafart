@@ -1,7 +1,13 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 import "./BlogDetail.css";
-import cardSmall from '../../Components/FashionPageAssets/fashion-small.png';
+import cardSmall from "../../Components/FashionPageAssets/fashion-small.png";
+import newBlogDetail1 from "../../Components/newBlogDetailAssets/newblogdetail1.png";
+import newBlogDetail2 from "../../Components/newBlogDetailAssets/newblogdetail2.png";
+import newBlogDetail3 from "../../Components/newBlogDetailAssets/newblogdetail3.png";
+import newBlogDetail4 from "../../Components/newBlogDetailAssets/newblogdetail4.png";
+import newBlogDetail5 from "../../Components/newBlogDetailAssets/newblogdetail5.png";
+import Scroller from "../../Components/Scroller/Scroller";
 
 const BlogDetail = () => {
   const location = useLocation();
@@ -14,7 +20,7 @@ const BlogDetail = () => {
         AUG 31, 2023
       </div>
       <div className="blog-body">
-        <img className="blog-image" src={image} alt="Main Image" />
+        <img className="blog-image" src={newBlogDetail1} alt="Main Image" />
         <div className="blogs-body">
           <div className="content">
             <div className="content-title">
@@ -42,6 +48,11 @@ const BlogDetail = () => {
               and fauna that thrive in this seemingly harsh environment.
             </div>
           </div>
+          <Scroller
+            image1={newBlogDetail2}
+            image2={newBlogDetail3}
+            image3={newBlogDetail4}
+          />
           <div className="content">
             <div className="content-title">
               Nomadic Traditions and Craftsmanship
@@ -55,7 +66,7 @@ const BlogDetail = () => {
               the desert's indigenous people.
             </div>
           </div>
-          <img src={image2} alt="Main Image" className="image2" />
+          <img src={newBlogDetail5} alt="Main Image" className="image2" />
           <div className="content">
             <div className="content-title">Conclusion</div>
             <div className="content-body">
@@ -73,7 +84,7 @@ const BlogDetail = () => {
           </div>
         </div>
       </div>
-      <div className="card">
+      <div className="cardd">
         <div className="card-imager">
           <img style={{ width: "144px" }} src={cardSmall} alt="Card Image" />
         </div>

@@ -2,7 +2,7 @@
     overflow-x: scroll;
     white-space: nowrap;
     width: 100%;
-    z-index: 100000;
+    z-index: 100;
     background: #FFFBEB;
     /* Adjust the width as needed */
     overflow-y: none;

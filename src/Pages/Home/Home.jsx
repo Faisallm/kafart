@@ -23,6 +23,10 @@ import  newfashion3 from '../../Components/newFashionPageAssets/newfashion3.png'
 import newfashion4 from '../../Components/newFashionPageAssets/newfashion4.png'
 import newfashion5 from '../../Components/newFashionPageAssets/newfashion5.png'
 import newfashion6 from '../../Components/newFashionPageAssets/newfashion6.png'
+import newhome1 from '../../Components/newHomeAssets/newhome1.png';
+import newhome2 from '../../Components/newHomeAssets/newhome2.png';
+import newhome3 from '../../Components/newHomeAssets/newhome3.png';
+import newhome4 from '../../Components/newHomeAssets/newhome4.png';
 
 const Home = () => {
   
@@ -91,25 +95,25 @@ const Home = () => {
         <div className="bottom-right-column">
           <div className="cards">
             <Card
-              image={Bottom1}
+              image={newhome1}
               title="HOW I WAS INSPIRED BY THE SAHARA"
               blob={Blob}
               name="Ganeeyat Sani"
             />
             <Card
-              image={Bottom2}
+              image={newhome2}
               title="HOW I WAS INSPIRED BY THE SAHARA"
               blob={Blob}
               name="Ganeeyat Sani"
             />
             <Card
-              image={Bottom3}
+              image={newhome3}
               title="HOW I WAS INSPIRED BY THE SAHARA"
               blob={Blob}
               name="Ganeeyat Sani"
             />
             <Card
-              image={Bottom4}
+              image={newhome4}
               title="HOW I WAS INSPIRED BY THE SAHARA"
               blob={Blob}
               name="Ganeeyat Sani"
