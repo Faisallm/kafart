@@ -3,6 +3,9 @@ import "./Hero.css";
 import Art1 from "../HomePageAssets/art1.jpg";
 import Art2 from "../HomePageAssets/art2.png";
 import Art3 from "../HomePageAssets/art3.jpg";
+import newart1 from "../../Components/newHeroAssets/newhero1.png";
+import newart2 from "../../Components/newHeroAssets/newhero2.png";
+import newart3 from "../../Components/newHeroAssets/newhero3.png";
 
 const Hero = () => {
   return (
@@ -21,13 +24,12 @@ const Hero = () => {
           </div>
 
           <div className="exhibition-text">
-            Explore a vibrant showcase of African artistry, from contemporary{" "}
-            <br />
+            Explore a vibrant showcase of African artistry, from contemporary
             masterpieces to traditional crafts.
           </div>
         </div>
         <div className="right-col">
-          <img src={Art1} alt="art1" />
+          <img src={newart1} alt="art1" />
         </div>
       </div>
 
@@ -38,13 +40,12 @@ const Hero = () => {
           </div>
 
           <div className="exhibition-text">
-            Explore a vibrant showcase of African artistry, from contemporary{" "}
-            <br />
-            masterpieces to traditional crafts.
+            Immerse yourself in the dynamic world of African performing arts,
+            featuring music, dance, theatre, and captivating live performances.
           </div>
         </div>
         <div className="right-col">
-          <img src={Art1} alt="art1" />
+          <img src={newart2} alt="art1" />
         </div>
       </div>
 
@@ -55,15 +56,16 @@ const Hero = () => {
           </div>
 
           <div className="exhibition-text">
-            Discover the richness of African <br /> heritage, from cuisine to
-            craftsmanship, <br /> and engage in thought-provoking <br />{" "}
-            discussions about tradition and modernity.
+            Discover the richness of African heritage, from cuisine to
+            craftsmanship, and engage in thought-provoking discussions about
+            tradition and modernity.
           </div>
         </div>
         <div className="right-col">
-          <img src={Art3} alt="art1" />
+          <img src={newart3} alt="art1" />
         </div>
       </div>
+
     </div>
   );
 };

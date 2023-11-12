@@ -80,13 +80,12 @@
         flex-direction: row;
     }
     .brief {
-        font-size: 24px;
+        font-size: 22px;
         /* Adjust font size for mobile */
-        font-weight: 600;
+        font-weight: 700;
         line-height: normal;
         margin-bottom: 20px;
         text-align: left;
-        font-weight: 500;
         /* Adjust margin for mobile */
     }
     .exhibition {
@@ -99,12 +98,12 @@
         /* Adjust margin for mobile */
     }
     .exhibition .left-col {
-        flex-basis: 100%;
+        /* flex-basis: 100%; */
         /* Take up full width on mobile */
         padding: 0;
     }
     .exhibition .right-col {
-        flex-basis: 100%;
+        /* flex-basis: 100%; */
         /* Take up full width on mobile */
         margin-top: 20px;
         /* Adjust margin for mobile */
@@ -136,7 +135,7 @@
         margin-right: 10px;
     }
     .exhibition-text {
-        font-size: 18px;
+        font-size: 16px;
         /* Adjust font size for mobile */
         font-weight: 400;
         text-align: left;
