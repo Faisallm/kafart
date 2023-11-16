@@ -50,7 +50,9 @@ const Header = () => {
       >
         <ul className="mobile-menu-links">
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/about" className="mobile-links">
+              About
+            </Link>
           </li>
           <li>
             <Link to="/fashion-designers">Creative</Link>
